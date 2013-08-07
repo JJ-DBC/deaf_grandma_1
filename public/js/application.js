@@ -1,7 +1,15 @@
 $(document).ready(function() {
-  // This is called after the document has loaded in its entirety
-  // This guarantees that any elements we bind to will exist on the page
-  // when we try to bind to them
+  $('#traction').on('submit', function(event){
+    event.preventDefault();
+  console.log('asjdhfjkashdf');
+  // var url = $(this).attr('hhref');
+  var data = $(this).serialize();
+  console.log(data);
+  // console.log(url);
+});
 
-  // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
+
+
+
+
 });
